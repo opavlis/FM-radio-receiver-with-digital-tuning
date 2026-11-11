@@ -21,10 +21,10 @@ This is a project for Digital Electronics 2 (BPC-DE2) on Brno University of Tech
 
 | Periferie | Signal | GPIO / Pin |
 |---|---|---|
-| **Si4703 FM modul** | SDIO (SDA) | GP4 (I2C0 SDA) |
-| | SCLK (SCL) | GP5  |
+| **Si4703 FM modul** | SDIO  | GP4  |
+| | SCLK  | GP5  |
 | | RST | GP6 |
-| | GPIO2 / STC (volitelně) | GP7 |
+| | GPIO2  | GP7 |
 | | VIN | 3V3(OUT) |
 | | GND | GND |
 | **OLED displej** | SDA | GP4  |
@@ -35,9 +35,9 @@ This is a project for Digital Electronics 2 (BPC-DE2) on Brno University of Tech
 | | Jedna krajní svorka | 3V3 |
 | | Druhá krajní svorka | AGND |
 | **Rotační enkodér** | CLK  | GP8 |
-| | DT (B) | GP9 |
+| | DT  | GP9 |
 | | SW  | GP10 |
-| | + | 3V3(OUT) |
+| | + | 3V3 |
 | | GND | GND |
 | **Tlačítko 1** | Jeden vývod | GP11 |
 | | Druhý vývod | GND |
