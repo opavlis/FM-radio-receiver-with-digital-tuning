@@ -31,7 +31,7 @@ This is a project for Digital Electronics 2 (BPC-DE2) on Brno University of Tech
 | | SCL | GP5  |
 | | VCC | 3V3 |
 | | GND | GND |
-| **Potenciometr ** | Střed  | GP26  |
+| **Potenciometr** | Střed  | GP26  |
 | | Jedna krajní svorka | 3V3 |
 | | Druhá krajní svorka | AGND |
 | **Rotační enkodér** | CLK  | GP8 |
