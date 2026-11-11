@@ -43,3 +43,7 @@ This is a project for Digital Electronics 2 (BPC-DE2) on Brno University of Tech
 | | Druhý vývod | GND |
 | **Tlačítko 2** | Jeden vývod | GP12 |
 | | Druhý vývod | GND |
+
+##
+
+
