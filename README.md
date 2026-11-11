@@ -1,10 +1,10 @@
 # FM-radio-receiver-with-digital-tuning
-This is a project for digital electronics 2 (BPC-DE2) on Brno University of Technology BUT FEEC.
+This is a project for Digital Electronics 2 (BPC-DE2) on Brno University of Technology BUT FEEC.
 ## Team members:
-+ Martin Morávek  
-+ Adrian Munteanu  
-+ Antonín Navrkal  
-+ Ondřej Pavliš
++ Martin Morávek - *SW engineer + documentation*
++ Adrian Munteanu - *SW engineer and design**
++ Antonín Navrkal - *HW and SW engineer*
++ Ondřej Pavliš - *HW and SW engineer + documentation*
 
 ## Components used:
 + Raspberry Pi Pico W
