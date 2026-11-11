@@ -25,7 +25,7 @@ This is a project for Digital Electronics 2 (BPC-DE2) on Brno University of Tech
 | | SCLK  | GP5  |
 | | RST | GP6 |
 | | GPIO2  | GP7 |
-| | VIN | 3V3(OUT) |
+| | VIN | 3V3 |
 | | GND | GND |
 | **OLED displej** | SDA | GP4  |
 | | SCL | GP5  |
