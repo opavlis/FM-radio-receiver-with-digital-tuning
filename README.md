@@ -14,3 +14,6 @@ This is a project for Digital Electronics 2 (BPC-DE2) on Brno University of Tech
 + Potencimeter
 + 2x Buttons
 
+## Block schematic
+![Popis obrázku](Images/Block_schematic.svg)
+
