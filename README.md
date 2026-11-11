@@ -19,7 +19,7 @@ This is a project for Digital Electronics 2 (BPC-DE2) on Brno University of Tech
 
 ## Pin/Bus plan
 
-| Periferie | Signál | GPIO / Pin |
+| Periferie | Signal | GPIO / Pin |
 |---|---|---|
 | **Si4703 FM modul** | SDIO (SDA) | GP4 (I2C0 SDA) |
 | | SCLK (SCL) | GP5 (I2C0 SCL) |
@@ -31,7 +31,7 @@ This is a project for Digital Electronics 2 (BPC-DE2) on Brno University of Tech
 | | SCL | GP5 (sdílená I2C0) |
 | | VCC | 3V3(OUT) |
 | | GND | GND |
-| **Potenciometr (hlasitost)** | Střed (wiper) | GP26 (ADC0) |
+| **Potenciometr ** | Střed (wiper) | GP26 (ADC0) |
 | | Jedna krajní svorka | 3V3(OUT) |
 | | Druhá krajní svorka | AGND |
 | **Rotační enkodér** | CLK (A) | GP8 |
