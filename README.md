@@ -13,4 +13,4 @@ This is a project for digital electronics 2 (BPC-DE2) on Brno University of Tech
 + FM STEREO modul Si4703
 + Potencimeter
 + 2x Buttons
-+ chchi chacha cheche
+
