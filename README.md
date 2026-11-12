@@ -12,7 +12,7 @@ The goal of this project is to make a fully functional FM radion based on Raspbe
 + Raspberry Pi Pico W
 + OLED Graphic Display Module
 + Rotary encoder
-+ FM STEREO modul Si4703
++ FM STEREO module Si4703
 + Potentiometer
 + 2x Buttons
 
