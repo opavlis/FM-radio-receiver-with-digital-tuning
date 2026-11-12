@@ -46,7 +46,7 @@ The goal of this project is to make a fully functional FM radion based on Raspbe
 | **Button 2** | IN | GP12 |
 | | OUT | GND |
 
-##Timing/concurrency plan
+##Timing/concurrency plan  
 | **Week**| **Plan** |
 |---|---|---|
 | 1. | Team members, creating GitHub repository, approval on Block diagram / pinout |
