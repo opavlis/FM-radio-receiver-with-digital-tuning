@@ -1,5 +1,6 @@
 # FM-radio-receiver-with-digital-tuning
-This is a project for Digital Electronics 2 (BPC-DE2) on Brno University of Technology BUT FEEC.
+This is a project for Digital Electronics 2 (BPC-DE2) on Brno University of Technology BUT FEEC.  
+The goal of this project is to make a fully functional FM radion based on Raspberry PI Pico W.
 
 ## Team members
 + **Martin Morávek** - *SW engineer + documentation*
@@ -15,12 +16,12 @@ This is a project for Digital Electronics 2 (BPC-DE2) on Brno University of Tech
 + Potentiometer
 + 2x Buttons
 
-## Block schematic
+## Block diagram
 ![Popis obrázku](Images/Block_schematic.png)
 
 ## Pin/Bus plan
 
-| Periferie | Signal | GPIO / Pin |
+| Periphery| Signal | GPIO / Pin |
 |---|---|---|
 | **Si4703 FM modul** | SDIO  | GP4  |
 | | SCLK  | GP5  |
@@ -45,6 +46,13 @@ This is a project for Digital Electronics 2 (BPC-DE2) on Brno University of Tech
 | **Button 2** | IN | GP12 |
 | | OUT | GND |
 
-##
+##Timing/concurrency plan
+| **Week**| **Plan** |
+|---|---|---|
+| 1. | Team members, creating GitHub repository, approval on Block diagram / pinout |
+| 2. | Testing modules / display, create complete wiring diagram  |
+| 3. | Wiring of the entire circuit and putting it into operation  |
+| 4. | Bug fixes, finishing documentation, making poster / short video  |
+| 5. | Demonstration and defense |
 
 
