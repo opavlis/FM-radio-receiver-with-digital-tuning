@@ -1,4 +1,4 @@
-# FM-radio-receiver-with-digital-tuning
+# FM radio receiver with digital tuning
 This is a project for Digital Electronics 2 (BPC-DE2) on Brno University of Technology BUT FEEC.  
 The goal of this project is to make a fully functional FM radion based on Raspberry PI Pico W.
 
@@ -23,7 +23,7 @@ The goal of this project is to make a fully functional FM radion based on Raspbe
 
 | Periphery| Signal | GPIO / Pin |
 |---|---|---|
-| **Si4703 FM modul** | SDIO  | GP4  |
+| **Si4703 FM module** | SDIO  | GP4  |
 | | SCLK  | GP5  |
 | | RST | GP6 |
 | | GPIO2  | GP7 |
