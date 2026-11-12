@@ -48,7 +48,7 @@ The goal of this project is to make a fully functional FM radion based on Raspbe
 
 ## Timing/concurrency plan  
 | **Week**| **Plan** |
-|---|---|---|
+|---|---|
 | 1. | Team members, creating GitHub repository, approval on Block diagram / pinout |
 | 2. | Testing modules / display, create complete wiring diagram  |
 | 3. | Wiring of the entire circuit and putting it into operation  |
