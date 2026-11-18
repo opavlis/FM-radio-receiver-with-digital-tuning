@@ -15,7 +15,7 @@ The goal of this project is to make a fully functional FM radion based on Raspbe
 
 
 ### OLED Graphic Display Module
-![OLED Graphic Display Module](Images/OLEDdisplay.png)
+<img src="Images/OLEDdisplay.png" alt="OLED Graphic Display Module" width="300">
 | Signal | GPIO / Pin |
 |---|---|
 | SDA | GP4  |
