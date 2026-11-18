@@ -9,10 +9,10 @@ The goal of this project is to make a fully functional FM radion based on Raspbe
 + **Ondřej Pavliš** - *HW and SW engineer + documentation*
 
 ## Components used and Pin/Bus plan
-# Raspberry Pi Pico W
+### Raspberry Pi Pico W
 
 
-# OLED Graphic Display Module
+### OLED Graphic Display Module
 | Signal | GPIO / Pin |
 |---|---|
 | SDA | GP4  |
@@ -20,7 +20,7 @@ The goal of this project is to make a fully functional FM radion based on Raspbe
 | VCC | 3V3 |
 | GND | GND |
 
-# Rotary encoder
+### Rotary encoder
 | Signal | GPIO / Pin |
 |---|---|
 | CLK  | GP16 |
@@ -29,7 +29,7 @@ The goal of this project is to make a fully functional FM radion based on Raspbe
 | + | 3V3 |
 | GND | GND |
 
-# FM STEREO module Si4703
+### FM STEREO module Si4703
 | Signal | GPIO / Pin |
 |---|---|
 | SDIO  | GP4  |
@@ -39,14 +39,14 @@ The goal of this project is to make a fully functional FM radion based on Raspbe
 | VIN | 3V3 |
 | GND | GND |
 
-# Potentiometer
+### Potentiometer
 | Signal | GPIO / Pin |
 |---|---|
 | Middle pin | GP26  |
 | Left pin | 3V3 |
 | Right pin | GND |
 
-# 2x Buttons
+### 2x Buttons
 | **Button**| Signal | GPIO / Pin |
 |---|---|---|
 | **Button 1** | IN | GP11 |
@@ -56,33 +56,6 @@ The goal of this project is to make a fully functional FM radion based on Raspbe
 
 ## Block diagram
 ![Popis obrázku](Images/Block_schematic.png)
-
-## Pin/Bus plan
-
-| Periphery| Signal | GPIO / Pin |
-|---|---|---|
-| **Si4703 FM module** | SDIO  | GP4  |
-| | SCLK  | GP5  |
-| | RST | GP6 |
-| | GPIO2  | GP7 |
-| | VIN | 3V3 |
-| | GND | GND |
-| **OLED display** | SDA | GP4  |
-| | SCL | GP5  |
-| | VCC | 3V3 |
-| | GND | GND |
-| **Potentiometer** | Middle pin | GP26  |
-| | Left pin | 3V3 |
-| | Right pin | GND |
-| **Rotary encoder** | CLK  | GP8 |
-| | DT  | GP9 |
-| | SW  | GP10 |
-| | + | 3V3 |
-| | GND | GND |
-| **Button 1** | IN | GP11 |
-| | OUT | GND |
-| **Button 2** | IN | GP12 |
-| | OUT | GND |
 
 ## Timing/concurrency plan  
 | **Week**| **Plan** |
