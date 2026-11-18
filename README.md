@@ -13,26 +13,9 @@ The goal of this project is to make a fully functional FM radion based on Raspbe
 <img src="Images/RPi.png" alt="Raspberry Pi Pico W" width="300">
 
 
-### OLED Graphic Display Module
-
-<div style="display: flex; align-items: flex-start; gap: 20px;">
-  <img src="Images/OLEDdisplay.png" alt="OLED Graphic Display Module" width="300">
-
-  <table>
-    <thead>
-      <tr>
-        <th>Signal</th>
-        <th>GPIO / Pin</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr><td>SDA</td><td>GP4</td></tr>
-      <tr><td>SCL</td><td>GP5</td></tr>
-      <tr><td>VCC</td><td>3V3</td></tr>
-      <tr><td>GND</td><td>GND</td></tr>
-    </tbody>
-  </table>
-</div>
+| OLED Graphic Display Module | Signal | GPIO / Pin |
+| :--- | :--- | :--- |
+| <img src="Images/OLEDdisplay.png" alt="OLED" width="300"> | SDA<br>SCL<br>VCC<br>GND | GP4<br>GP5<br>3U3<br>GND |
 
 ### Rotary encoder
 <img src="Images/Rotaryencoder.png" alt="Rotary encoder" width="300">  
