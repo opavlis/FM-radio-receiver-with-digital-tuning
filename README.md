@@ -10,7 +10,8 @@ The goal of this project is to make a fully functional FM radion based on Raspbe
 
 ## Components used and Pin/Bus plan
 ### Raspberry Pi Pico W
-![Raspberry Pi Pico W](Images/RPi.png)
+<img src="images/RPi.png" alt="Raspberry Pi Pico W" width="300" height="200">  <!-- Resize to 300px width -->
+
 
 ### OLED Graphic Display Module
 ![OLED Graphic Display Module](Images/OLEDdisplay.png)
