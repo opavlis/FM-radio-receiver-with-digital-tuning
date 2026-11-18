@@ -14,14 +14,25 @@ The goal of this project is to make a fully functional FM radion based on Raspbe
 
 
 ### OLED Graphic Display Module
-<img src="Images/OLEDdisplay.png" alt="OLED Graphic Display Module" width="300">  
 
-| Signal | GPIO / Pin |
-|---|---|
-| SDA | GP4  |
-| SCL | GP5  |
-| VCC | 3V3 |
-| GND | GND |
+<div style="display: flex; align-items: flex-start; gap: 20px;">
+  <img src="Images/OLEDdisplay.png" alt="OLED Graphic Display Module" width="300">
+
+  <table>
+    <thead>
+      <tr>
+        <th>Signal</th>
+        <th>GPIO / Pin</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>SDA</td><td>GP4</td></tr>
+      <tr><td>SCL</td><td>GP5</td></tr>
+      <tr><td>VCC</td><td>3V3</td></tr>
+      <tr><td>GND</td><td>GND</td></tr>
+    </tbody>
+  </table>
+</div>
 
 ### Rotary encoder
 <img src="Images/Rotaryencoder.png" alt="Rotary encoder" width="300">  
