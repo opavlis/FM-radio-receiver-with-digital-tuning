@@ -10,12 +10,12 @@ The goal of this project is to make a fully functional FM radion based on Raspbe
 
 ## Components used and Pin/Bus plan
 ### Raspberry Pi Pico W
-![Raspberry Pi Pico W](Images/RPi.png)
-<img src="images/RPi.png" alt="Raspberry Pi Pico W" width="300" height="200">  <!-- Resize to 300px width -->
+<img src="images/RPi.png" alt="Raspberry Pi Pico W" width="300">
 
 
 ### OLED Graphic Display Module
-<img src="Images/OLEDdisplay.png" alt="OLED Graphic Display Module" width="300">
+<img src="Images/OLEDdisplay.png" alt="OLED Graphic Display Module" width="300">  
+
 | Signal | GPIO / Pin |
 |---|---|
 | SDA | GP4  |
@@ -24,7 +24,8 @@ The goal of this project is to make a fully functional FM radion based on Raspbe
 | GND | GND |
 
 ### Rotary encoder
-![Rotary encoder](Images/Rotary_encoder.png)
+<img src="Images/Rotaryencoder.png" alt="Rotary encoder" width="300">  
+
 | Signal | GPIO / Pin |
 |---|---|
 | CLK  | GP16 |
@@ -34,7 +35,8 @@ The goal of this project is to make a fully functional FM radion based on Raspbe
 | GND | GND |
 
 ### FM STEREO module Si4703
-![FM STEREO module Si4703](Images/FMradiomodule.png)
+<img src="Images/FMradiomodule.png" alt="FM STEREO module Si4703" width="300">  
+
 | Signal | GPIO / Pin |
 |---|---|
 | SDIO  | GP4  |
@@ -45,7 +47,8 @@ The goal of this project is to make a fully functional FM radion based on Raspbe
 | GND | GND |
 
 ### Potentiometer
-![Potentiometer](Images/Potentiometer.png)
+<img src="Images/Potentiometer.png" alt="Potentiometer" width="300">  
+
 | Signal | GPIO / Pin |
 |---|---|
 | Middle pin | GP26  |
@@ -53,7 +56,8 @@ The goal of this project is to make a fully functional FM radion based on Raspbe
 | Right pin | GND |
 
 ### 2x Buttons
-![Button](Images/button.png)
+<img src="Images/button.png" alt="Button" width="300">  
+
 | **Button**| Signal | GPIO / Pin |
 |---|---|---|
 | **Button 1** | IN | GP11 |
