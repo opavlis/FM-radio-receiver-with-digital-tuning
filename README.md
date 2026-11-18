@@ -8,13 +8,51 @@ The goal of this project is to make a fully functional FM radion based on Raspbe
 + **Antonín Navrkal** - *HW and SW engineer*
 + **Ondřej Pavliš** - *HW and SW engineer + documentation*
 
-## Components used
-+ Raspberry Pi Pico W
-+ OLED Graphic Display Module
-+ Rotary encoder
-+ FM STEREO module Si4703
-+ Potentiometer
-+ 2x Buttons
+## Components used and Pin/Bus plan
+# Raspberry Pi Pico W
+
+
+# OLED Graphic Display Module
+| Signal | GPIO / Pin |
+|---|---|
+| SDA | GP4  |
+| SCL | GP5  |
+| VCC | 3V3 |
+| GND | GND |
+
+# Rotary encoder
+| Signal | GPIO / Pin |
+|---|---|
+| CLK  | GP16 |
+| DT  | GP17 |
+| SW  | GP15 |
+| + | 3V3 |
+| GND | GND |
+
+# FM STEREO module Si4703
+| Signal | GPIO / Pin |
+|---|---|
+| SDIO  | GP4  |
+| SCLK  | GP5  |
+| RST | GP6 |
+| GPIO2  | GP7 |
+| VIN | 3V3 |
+| GND | GND |
+
+# Potentiometer
+| Signal | GPIO / Pin |
+|---|---|
+| Middle pin | GP26  |
+| Left pin | 3V3 |
+| Right pin | GND |
+
+# 2x Buttons
+| **Button**| Signal | GPIO / Pin |
+|---|---|---|
+| **Button 1** | IN | GP11 |
+| | OUT | GND |
+| **Button 2** | IN | GP12 |
+| | OUT | GND |
 
 ## Block diagram
 ![Popis obrázku](Images/Block_schematic.png)
