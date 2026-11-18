@@ -1,0 +1,13 @@
+   from machine import ADC
+from time import sleep
+
+# ADC na pinu GP26
+pot = ADC(26)
+
+while True:
+    hodnota = pot.read_u16()  # 0 až 65535
+    napeti = hodnota * 3.3 / 65535
+
+    print("ADC:", hodnota, "Napětí:", round(napeti, 2), "V")
+
+    sleep(0.5)
