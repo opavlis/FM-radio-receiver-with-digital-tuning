@@ -6,22 +6,22 @@ clk = Pin(16, Pin.IN, Pin.PULL_UP)
 dt = Pin(17, Pin.IN, Pin.PULL_UP)
 sw = Pin(15, Pin.IN, Pin.PULL_UP)
 
-posledni_clk = clk.value()
-pozice = 0
+last_clk = clk.value()
+position = 0
 
 while True:
-    aktualni_clk = clk.value()
+    current_clk = clk.value()
 
     if sw.value() == 0:
-      print("Tlacitko stisknuto")
+      print("Button pressed")
 
-    if aktualni_clk != posledni_clk:
-        if dt.value() != aktualni_clk:
-            pozice += 1
-            print("Doprava  | Pozice:", pozice)
+    if current_clk != last_clk:
+        if dt.value() != current_clk:
+            position += 1
+            print("Right  | Position:", position)
         else:
-            pozice -= 1
-            print("Doleva   | Pozice:", pozice)
+            position -= 1
+            print("Left   | Position:", position)
 
-    posledni_clk = aktualni_clk
+    last_clk = current_clk
     sleep_ms(2)
