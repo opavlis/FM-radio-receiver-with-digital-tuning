@@ -45,16 +45,16 @@ A rotary encoder will adjust the FM module frequency, and pressing it will allow
 
 ## Testing individual components
 ### OLED Graphic Display Module 
-- was tested by wiring it to breadboard, found on I2C bus and [printing text "Hello"](Images/Displaytestphoto.jpeg) with a [simple code](Test_codes/Testcode_display.py).
+- tested by wiring it to a breadboard, detecting it on the I2C bus and [displaying the text "Hello"](Images/Displaytestphoto.jpeg) using a [simple script](Test_codes/Testcode_display.py).
 
 ### FM STEREO module Si4703  
-- similary as the Graphic Display the module was tested by [wiring it to breadboard](Images/FMtest_photo.jpeg), found on I2C bus and [trying the radio connection](Images/FMtest.png) with a [code](Test_codes/Testcode_FMmodule.py). A library for the Si4703 chip had to be used here. 
+- similary to the Graphic Display this module was tested by [wiring it to a breadboard](Images/FMtest_photo.jpeg), detecting it on the I2C bus and [trying the radio connection](Images/FMtest.png) with a [script](Test_codes/Testcode_FMmodule.py). A library for the Si4703 chip was required for this task. 
 
 ### Rotary encoder 
-- was connected to Raspberry Pi Pico W and a [code](Test_codes/Testcode_encoder.py)  was used to monitor how the encoder's rotation value changed.
+- connected to Raspberry Pi Pico W and a [script](Test_codes/Testcode_encoder.py)  was used to monitor how the encoder's rotation value changes.
 
 ### Potentiometer
-- was also connected to Raspberry Pi Pico W and we watched how ADC value changed and then recalculated it in [code](Test_codes/Testcode_potentiometer.py)  to [show in volts](Encodertest.mp4).
+- also connected to Raspberry Pi Pico W, ADC values were monitored and then recalculated in [script](Test_codes/Testcode_potentiometer.py) to [show in volts](Encodertest.mp4).
 
 ## Timing/concurrency plan  
 | **Week**| **Plan** |
