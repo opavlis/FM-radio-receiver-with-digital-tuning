@@ -41,7 +41,7 @@ A rotary encoder will adjust the FM module frequency, and pressing it will allow
 ## Block diagram
 ![Block diagram](Images/Block_schematic.png)
 ## Wiring diagram
-![Will be added!](Images/Block_schematic.png)
+![Will be added!](Images/Wirediagram.png)
 
 ## Testing individual components
 ### OLED Graphic Display Module 
