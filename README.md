@@ -51,7 +51,7 @@ The goal of this project is to make a fully functional FM radion based on Raspbe
 - was connected to Raspberry Pi Pico W and a [code](Test_codes/Testcode_encoder.py)  was used to monitor how the encoder's rotation value changed.
 
 ### Potentiometer
-- was also connected to Raspberry Pi Pico W and we watched how ADC value changed and then recalculated it in [code](Test_codes/Testcode_potentiometer.py)  to [show in volts](Encodertest.MOV).
+- was also connected to Raspberry Pi Pico W and we watched how ADC value changed and then recalculated it in [code](Test_codes/Testcode_potentiometer.py)  to [show in volts](Encodertest.mp4).
 
 ## Timing/concurrency plan  
 | **Week**| **Plan** |
