@@ -40,7 +40,7 @@ A rotary encoder will adjust the FM module frequency, and pressing it will allow
 - similary to the Graphic Display this module was tested by [wiring it to a breadboard](Images/FMtest_photo.jpeg), detecting it on the I2C bus and [trying the radio connection](Images/FMtest.png) with a [script](Test_codes/Testcode_FMmodule.py). A library for the Si4703 chip was required for this task. 
 
 ### Rotary encoder 
-- connected to Raspberry Pi Pico W and a [script](Test_codes/Testcode_encoder.py)  was used to monitor how the encoder's rotation value changes.
+- connected to Raspberry Pi Pico W and a [script](Test_codes/Testcode_encoder.py)  was used to [monitor how the encoder's rotation value changes](https://github.com/user-attachments/assets/8ddd04d8-184d-408e-8234-26b96ce2e8c1).
 
 ### Potentiometer
 - also connected to Raspberry Pi Pico W, ADC values were monitored and then recalculated in [script](Test_codes/Testcode_potentiometer.py) to [show in volts](https://github.com/user-attachments/assets/616e78eb-3505-48d2-8ab4-cd8b1321fbca).
