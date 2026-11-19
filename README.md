@@ -3,10 +3,10 @@ This is a project for Digital Electronics 2 (BPC-DE2) on Brno University of Tech
 The goal of this project is to make a fully functional FM radion based on Raspberry PI Pico W.
 
 ## Team members
-+ **Martin Morávek** - *SW engineer + documentation*
-+ **Adrian Munteanu** - *SW engineer and design*
-+ **Antonín Navrkal** - *HW and SW engineer*
-+ **Ondřej Pavliš** - *HW and SW engineer + documentation*
++ **Martin Morávek** - *SW engineer + documentation* (Block schematic, rotary encoder, FM module and potentiometer testing, pinout)
++ **Adrian Munteanu** - *SW engineer and design* (Wiring diagram, photos/videos shooting, pinout)
++ **Antonín Navrkal** - *HW and SW engineer* (FM module and OLED display testing, pinout)
++ **Ondřej Pavliš** - *HW and SW engineer + documentation* (GitHub repository, FM module testing, pinout)
 
 ## Components used and Pin/Bus plan
 | Raspberry Pi Pico W |
@@ -37,6 +37,12 @@ The goal of this project is to make a fully functional FM radion based on Raspbe
 
 ## Block diagram
 ![Block diagram](Images/Block_schematic.png)
+## Wiring diagram
+![Will be added!](Images/Block_schematic.png)
+
+## Testing individual components
+### OLED Graphic Display Module 
+- was tested by wiring in to breadboard, found on I2C bus and [printing text "Hello"](Images/Displaytestphoto.py) with a [simple code](Test_codes/Testcode_display.py).
 
 ## Timing/concurrency plan  
 | **Week**| **Plan** |
