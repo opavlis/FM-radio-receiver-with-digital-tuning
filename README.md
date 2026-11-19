@@ -42,7 +42,16 @@ The goal of this project is to make a fully functional FM radion based on Raspbe
 
 ## Testing individual components
 ### OLED Graphic Display Module 
-- was tested by wiring in to breadboard, found on I2C bus and [printing text "Hello"](Images/Displaytestphoto.py) with a [simple code](Test_codes/Testcode_display.py).
+- was tested by wiring it to breadboard, found on I2C bus and [printing text "Hello"](Images/Displaytestphoto.jpeg) with a [simple code](Test_codes/Testcode_display.py).
+
+### FM STEREO module Si4703  
+- similary as the Graphic Display the module was tested by [wiring it to breadboard](Images/FMtest_photo.jpeg), found on I2C bus and [trying the radio connection](Images/FMtest.png) with a [code](Test_codes/Testcode_FMmodule.py). A library for the Si4703 chip had to be used here. 
+
+### Rotary encoder 
+- was connected to Raspberry Pi Pico W and a [code](Test_codes/Testcode_encoder.py)  was used to monitor how the encoder's rotation value changed.
+
+### Potentiometer
+- was also connected to Raspberry Pi Pico W and we watched how ADC value changed and then recalculated it in [code](Test_codes/Testcode_potentiometer.py)  to [show in volts](Encodertest.MOV).
 
 ## Timing/concurrency plan  
 | **Week**| **Plan** |
