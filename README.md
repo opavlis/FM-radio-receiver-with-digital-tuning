@@ -43,7 +43,7 @@ A rotary encoder will adjust the FM module frequency, and pressing it will allow
 - connected to Raspberry Pi Pico W and a [script](Test_codes/Testcode_encoder.py)  was used to monitor how the encoder's rotation value changes.
 
 ### Potentiometer
-- also connected to Raspberry Pi Pico W, ADC values were monitored and then recalculated in [script](Test_codes/Testcode_potentiometer.py) to [show in volts](Encodertest.mp4).
+- also connected to Raspberry Pi Pico W, ADC values were monitored and then recalculated in [script](Test_codes/Testcode_potentiometer.py) to [show in volts](https://github.com/user-attachments/assets/616e78eb-3505-48d2-8ab4-cd8b1321fbca).
 
 ## Timing/concurrency plan  
 | **Week**| **Plan** |
