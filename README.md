@@ -1,8 +1,8 @@
 # FM radio receiver with digital tuning
 This is a project for Digital Electronics 2 (BPC-DE2) on Brno University of Technology BUT FEEC.  
-The goal of this project is to make a fully functional FM radion based on Raspberry PI Pico W.
+The goal of this project is to make a fully functional FM radio based on Raspberry Pi Pico W.
 
-## How will the project work?
+## Project functionality
 A rotary encoder will adjust the FM module frequency, and pressing it will allow you to save the selected frequency to memory. By pressing button 1 or 2, you can switch between the saved frequencies. A potentiometer will be used to control the radio's volume. Both the frequency and the volume will be displayed on an OLED screen. If possible, the name of the radio station or the currently playing song will also be shown.
 
 ## Team members
