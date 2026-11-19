@@ -28,7 +28,7 @@ A rotary encoder will adjust the FM module frequency, and pressing it will allow
 
 | FM STEREO module Si4703 | Signal -> GPIO / Pin |
 | :--- | :--- |
-| <img src="Images/FMradiomodule.png" alt="FM STEREO module Si4703" width="300"> | SDIO   ->   GP4<br>SCLK   ->   GP5<br>RST   ->   GP6<br>GPIO2   ->   GP7<br>VIN   ->   3V3<br>GND   ->   GND |
+| <img src="Images/FMradiomodule.png" alt="FM STEREO module Si4703" width="300"> | SDIO   ->   GP18<br>SCLK   ->   GP19<br>RST   ->   GP6<br>GPIO2   ->   GP7<br>3.3V   ->   3V3<br>GND   ->   GND |
 
 | Potentiometer | Signal -> GPIO / Pin |
 | :--- | :--- |
