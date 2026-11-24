@@ -26,8 +26,8 @@ A rotary encoder will adjust the FM module frequency, and pressing it will allow
 | <img src="Images/Potentiometer.png" alt="Potentiometer" width="300"> | Middle pin   ->   GP26<br>Left pin   ->   3V3<br>Right pin   ->   GND | <img src="Images/button.png" alt="Button" width="250"> | **Button 1**<br>IN   ->   GP11<br>OUT   ->   GND<br><br>**Button 2**<br>IN   ->   GP12<br>OUT   ->   GND |
 
 ## Libraries used
-+ **FM module** - [si4703](Libraries/si4703.py)
-+ **OLED display** - [sh1106](Libraies/sh1106.py)
++ **FM module** - [si4703](Libraries/si4703.py), Pin, I2C
++ **OLED display** - [sh1106](Libraies/sh1106.py), Pin, I2C
 
 ## Block diagram
 ![Block diagram](Images/Block_schematic.png)
