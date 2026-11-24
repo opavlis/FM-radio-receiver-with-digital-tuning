@@ -27,7 +27,7 @@ A rotary encoder will adjust the FM module frequency, and pressing it will allow
 
 ## Libraries used
 + **FM module** - [si4703](Libraries/si4703.py), Pin, I2C
-+ **OLED display** - [sh1106](Libraies/sh1106.py), Pin, I2C
++ **OLED display** - [sh1106](Libraries/sh1106.py), Pin, I2C
   
 ## Block diagram
 ![Block diagram](Images/Block_schematic.png)
