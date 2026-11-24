@@ -14,17 +14,20 @@ A rotary encoder will adjust the FM module frequency, and pressing it will allow
 ## Components used and Pin/Bus plan
 | Raspberry Pi Pico W | Parameters | OLED Graphic Display Module | Signal  ->  GPIO / Pin |
 | :--- | :--- | :--- | :--- |
-| <img src="Images/RPi.png" alt="Raspberry Pi Pico W" width="300"> |2 × SPI<br>2 × I2C<br>2 × UART<br>3 × 12bit ADC<br>16 × PWM channel |<img src="Images/OLEDdisplay.png" alt="OLED" width="300"> | SDA    ->    GP4<br>SCL    ->    GP5<br>VCC    ->    3V3<br>GND    ->    GND |
+| <img src="Images/RPi.png" alt="Raspberry Pi Pico W" width="300"> |2 × SPI<br>2 × I2C<br>2 × UART<br>3 × 12bit ADC<br>16 × PWM channel |<img src="Images/OLEDdisplay.png" alt="OLED" width="250"> | SDA    ->    GP4(I2C0 SDA)<br>SCL    ->    GP5(I2C0 SCL)<br>VCC    ->    3V3<br>GND    ->    GND |
 
 | Rotary encoder | Signal  ->  GPIO / Pin | FM STEREO module Si4703 | Signal -> GPIO / Pin |
 | :--- | :--- | :--- | :--- |
-| <img src="Images/Rotaryencoder.png" alt="OLED" width="300"> | CLK    ->    GP16<br>DT    ->    GP17<br>SW    ->    GP15<br>+    ->    3V3<br>GND    ->    GND | <img src="Images/FMradiomodule.png" alt="FM STEREO module Si4703" width="300"> | SDIO   ->   GP18<br>SCLK   ->   GP19<br>RST   ->   GP6<br>GPIO2   ->   GP7<br>3.3V   ->   3V3<br>GND   ->   GND |
+| <img src="Images/Rotaryencoder.png" alt="OLED" width="300"> | CLK    ->    GP16<br>DT    ->    GP17<br>SW    ->    GP15<br>+    ->    3V3<br>GND    ->    GND | <img src="Images/FMradiomodule.png" alt="FM STEREO module Si4703" width="250"> | SDIO   ->  GP18(I2C1 SDA)<br>SCLK   ->   GP19(I2C1 SCL)<br>RST   ->   GP6<br>GPIO2   ->   GP7<br>3.3V   ->   3V3<br>GND   ->   GND |
 
 
 | Potentiometer | Signal -> GPIO / Pin | 2x Buttons | Signal -> GPIO / Pin |
 | :--- | :--- | :--- | :--- |
-| <img src="Images/Potentiometer.png" alt="Potentiometer" width="300"> | Middle pin   ->   GP26<br>Left pin   ->   3V3<br>Right pin   ->   GND | <img src="Images/button.png" alt="Button" width="300"> | **Button 1**<br>IN   ->   GP11<br>OUT   ->   GND<br><br>**Button 2**<br>IN   ->   GP12<br>OUT   ->   GND |
+| <img src="Images/Potentiometer.png" alt="Potentiometer" width="300"> | Middle pin   ->   GP26<br>Left pin   ->   3V3<br>Right pin   ->   GND | <img src="Images/button.png" alt="Button" width="250"> | **Button 1**<br>IN   ->   GP11<br>OUT   ->   GND<br><br>**Button 2**<br>IN   ->   GP12<br>OUT   ->   GND |
 
+## Libraries used
++ **FM module** - [si4703](Libraries/si4703.py)
++ **OLED display** - [sh1106](Libraies/sh1106.py)
 
 ## Block diagram
 ![Block diagram](Images/Block_schematic.png)
