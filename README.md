@@ -28,7 +28,7 @@ A rotary encoder will adjust the FM module frequency, and pressing it will allow
 ## Libraries used
 + **FM module** - [si4703](Libraries/si4703.py), Pin, I2C
 + **OLED display** - [sh1106](Libraies/sh1106.py), Pin, I2C
-
+  
 ## Block diagram
 ![Block diagram](Images/Block_schematic.png)
 
@@ -48,7 +48,13 @@ A rotary encoder will adjust the FM module frequency, and pressing it will allow
 ### Potentiometer
 - also connected to Raspberry Pi Pico W, ADC values were monitored and then recalculated in [script](Test_codes/Testcode_potentiometer.py) to [show in volts](https://github.com/user-attachments/assets/616e78eb-3505-48d2-8ab4-cd8b1321fbca).
 
-## Timing/concurrency plan  
+## Concurrency plan
++ Encoder & buttons: poll/interrupt frequently with non-blocking timing (continuous)
++ Potentiometer: read periodically without blocking (every 20–50 ms)
++ FM module: update only on tuning/state change (on event)
++ OLED display: refresh on fixed interval (every 50–100 ms)
+  
+## Timing plan  
 | **Week**| **Plan** |
 |---|---|
 | 1. | Team members, creating GitHub repository, approval on Block diagram / pinout |
